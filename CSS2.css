@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-image: url('bg.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.info {
+	width: 60% !important;
+	justify-content: center !important;
+	color: white;
+	font-size: 20px;
+}
+
+.icon {
+	border-radius: 50%;
+}
+
+.main {
+	text-align:center;
+	font-size:27px;
+	color:#FFF;
+	
+}
+
+pictures {
+	margin:0px;
+	padding: 0px 25px;
+
+}
+
+.pics {
+	display: inline-block;
+	padding:0px;
+	margin:9px;
+	border: 5px solid green;
+	
+}
+
+.pics:hover {
+	background-image:linear-gradient(to bottom, red, yellow);
+	
+}
+
+img {
+	transition:transform 0.25s ease;
+	
+}
+
+img:hover {
+	-webkit-transform:scale(1.5); /* or some other value */ 
+	transform:scale(1.5);
+	
+}
+	
+	
+
+
+
